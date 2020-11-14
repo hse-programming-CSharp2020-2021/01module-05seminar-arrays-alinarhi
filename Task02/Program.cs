@@ -35,8 +35,9 @@ namespace Task02
         {
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = (int)Math.Pow(2, i);
+                array[i] = Math.Pow(2, i);
             }
         }
+       
     }
 }
