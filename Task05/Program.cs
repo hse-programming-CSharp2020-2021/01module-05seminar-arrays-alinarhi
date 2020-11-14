@@ -29,10 +29,28 @@ namespace Task05
         public static void RunTask05()
         {
             int N = int.Parse(Console.ReadLine());
+            double[] array = new double[N];
 
-            // TODO: объявите массив и вызовите метод для его заполнения
-            
-            // TODO: выведите массив на экран в требуемом порядке
+            FillArray(array);
+            PrintReversed(array);
+        }
+
+        public static void FillArray(double[] arr)
+        {
+            arr[0] = arr[1] = 1;
+            for (int i = 2; i < arr.Length; i++)
+            {
+                arr[i] = arr[i - 1] + arr[i - 2];
+            }
+        }
+
+        public static void PrintReversed(double[] arr)
+        {
+            for (int i = arr.Length - 1; i > 0; i--)
+            {
+                Console.Write($"{arr[i]} ");
+            }
+            Console.WriteLine($"{arr[0]}");
         }
     }
 }

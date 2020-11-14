@@ -27,18 +27,23 @@ namespace Task04
         public static void RunTask04()
         {
             int N = int.Parse(Console.ReadLine());
-
-            int A, D;
+            double A, D;
             // TODO: считайте необходимые значения A и D
-            
+            A = double.Parse(Console.ReadLine());
+            D = double.Parse(Console.ReadLine());
             // TODO: инициализируйте массив и передайте его в соответствующий метод вместе с необходимыми значениями 
-            
+            double[] arr = new double[N];
+            FillArray(arr, A, D);
             // TODO: выведите массив на экран
+            Console.WriteLine(string.Join(" ", arr));
         }
         
-        static void FillArray()
+        static void FillArray(double[] arr, double a, double d)
         {
-            // TODO: заполните массив соответствующими данными
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = a + i * d;
+            }
         }
     }
 }

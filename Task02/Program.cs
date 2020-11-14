@@ -25,16 +25,19 @@ namespace Task02
         public static void RunTask02()
         {
             int N = int.Parse(Console.ReadLine());
+            double[] arr = new double[N];
 
-            // TODO: инициализируйте массив и передайте его в соответствующий метод
-
-            
-            // TODO: выведите массив на экран
+            FillArray(arr);
+            Console.WriteLine(string.Join(" ", arr));
         }
 
-        static void FillArray()
+        static void FillArray(double[] array)
         {
-            // TODO: заполните массив соответствующими данными
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = Math.Pow(2, i);
+            }
         }
+       
     }
 }
