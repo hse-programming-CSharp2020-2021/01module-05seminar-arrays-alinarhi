@@ -50,7 +50,7 @@ namespace Task01
             int newValue; // значение, которым нужно заменить все максимальные элементы
                           // TODO: считайте новое значение
             newValue = int.Parse(Console.ReadLine());
-            Console.WriteLine(string.Join(" ", array));
+            Console.WriteLine(string.Join(" ", array) + " ");
             ReplaceMaxElem(ref array, newValue);
             Console.WriteLine(string.Join(" ", array));
         }

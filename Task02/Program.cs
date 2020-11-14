@@ -25,13 +25,13 @@ namespace Task02
         public static void RunTask02()
         {
             int N = int.Parse(Console.ReadLine());
-            int[] arr = new int[N];
+            double[] arr = new double[N];
 
             FillArray(arr);
             Console.WriteLine(string.Join(" ", arr));
         }
 
-        static void FillArray(int[] array)
+        static void FillArray(double[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {

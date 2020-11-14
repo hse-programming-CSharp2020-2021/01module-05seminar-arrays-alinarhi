@@ -29,13 +29,13 @@ namespace Task05
         public static void RunTask05()
         {
             int N = int.Parse(Console.ReadLine());
-            int[] array = new int[N];
+            double[] array = new double[N];
 
             FillArray(array);
             PrintReversed(array);
         }
 
-        public static void FillArray(int[] arr)
+        public static void FillArray(double[] arr)
         {
             arr[0] = arr[1] = 1;
             for (int i = 2; i < arr.Length; i++)
@@ -44,7 +44,7 @@ namespace Task05
             }
         }
 
-        public static void PrintReversed(int[] arr)
+        public static void PrintReversed(double[] arr)
         {
             for (int i = arr.Length - 1; i > 0; i--)
             {
