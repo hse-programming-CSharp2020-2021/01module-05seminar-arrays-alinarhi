@@ -1,0 +1,13 @@
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\bin\Debug\netcoreapp3.1\Task04.exe
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\bin\Debug\netcoreapp3.1\Task04.deps.json
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.json
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.dev.json
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\bin\Debug\netcoreapp3.1\Task04.dll
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\bin\Debug\netcoreapp3.1\Task04.pdb
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.csprojAssemblyReference.cache
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfoInputs.cache
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfo.cs
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.csproj.CoreCompileInputs.cache
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.dll
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.pdb
+C:\Users\Алина\Source\Repos\01module-05seminar-arrays-alinarhi\Task04\obj\Debug\netcoreapp3.1\Task04.genruntimeconfig.cache

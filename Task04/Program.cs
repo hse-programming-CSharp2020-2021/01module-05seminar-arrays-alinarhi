@@ -30,15 +30,21 @@ namespace Task04
 
             int A, D;
             // TODO: считайте необходимые значения A и D
-            
+            A = int.Parse(Console.ReadLine());
+            D = int.Parse(Console.ReadLine());
             // TODO: инициализируйте массив и передайте его в соответствующий метод вместе с необходимыми значениями 
-            
+            int[] arr = new int[N];
+            FillArray(arr, A, D);
             // TODO: выведите массив на экран
+            Console.WriteLine(string.Join(" ", arr));
         }
         
-        static void FillArray()
+        static void FillArray(int[] arr, int a, int d)
         {
-            // TODO: заполните массив соответствующими данными
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = a + i * d;
+            }
         }
     }
 }
